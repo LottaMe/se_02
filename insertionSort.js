@@ -14,8 +14,6 @@ function insertionSort(array) {
     return(array);
 }
 
-const testArray = [3, 1, 6, -3];
-console.log("array: " + testArray);
-
+const testArray = [10, 7, 3, 13, 2, 8, 5];
 const sortedArray = insertionSort(testArray);
 console.log("sorted array: " + sortedArray);
